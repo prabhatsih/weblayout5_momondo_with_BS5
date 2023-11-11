@@ -23,6 +23,9 @@
 .bg-danger4{
     background: #43235a;
 }
+.bg-purple{
+    background: #1F1631;
+}
 .bg-warning2{
     background: #FA9005;
 }
@@ -35,6 +38,9 @@
 .text-dark2{
    color: #161616;
 }
+.text-orange{
+   color: #ffa500;
+}
 .top-10{
     top:10%;
 }
@@ -44,6 +50,12 @@
 .top-20{
     top:20%;
 }
+p{
+    font-size: 14px;
+    margin: 0px;
+    line-height: 25px;
+}
+
 
 /* Banner Section Start */
 .banner{
@@ -63,9 +75,18 @@
 
 /* fun section start */
 .fun{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/fun.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+
+}
+.newsletter{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/news3.jpg);
+    background-size: cover;
 }
 /* /fun section end */
+
+
 
 
 
